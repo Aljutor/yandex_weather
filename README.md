@@ -22,4 +22,4 @@ weather:
     api_key: <yandex_api_key>    
 ```
 
-Note: You have to wait 30 min after install tion for first data update.
+Note: You have to wait 30 min after installation for first data update.
