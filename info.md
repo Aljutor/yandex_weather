@@ -1,15 +1,18 @@
-# Yandex Weather custom component for Home-assistant
+# Yandex Weather custom component for Home-assistant. Thanks to bastshoes and apaex
 This is custom component for Home-assistant. 
-Component work with Home-assistant startinf 0.92 or later.
+Component work with Home-assistant HA 2022.3.*.
 
 # Installation
 
-# Step 1
+**Method 1. HACS:**
 
-Create a directory called `yandex_weather` in the `<config directory>/custom_components/` directory on your Home Assistant instance.
-Install this component by copying the files in [`/custom_components/yandex_weather/`] from this repo into the new `<config directory>/custom_components/yandex_weather/` directory you just created.
+HACS > Integrations > 3 dots > Custom Repositories > alexanderznamensky/yandex_weather + Intergration > Yandex Weather > Install
 
-# Step 2
+**Method 2.**
+
+Manually copy yandex_weather folder from latest release to /config/custom_components folder.
+
+# Configuration:
 
 Add this to your `configuration.yaml`
 
@@ -18,3 +21,5 @@ weather:
   - platform: yandex_weather
     api_key: <yandex_api_key>    
 ```
+
+*** Note: You have to wait 30 min after installation for first data update.
