@@ -1,6 +1,6 @@
 # Yandex Weather custom component for Home-assistant. Thanks to bastshoes and apaex
 This is custom component for Home-assistant. 
-Component work with Home-assistant starting 0.92 or later.
+Component work with Home-assistant HA 2022.3.*.
 
 # Installation
 
